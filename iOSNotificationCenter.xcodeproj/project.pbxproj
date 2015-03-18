@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE68915D8632E4B8D583F9AE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A87F146351FEB7F79808FAF /* libPods.a */; };
 		CA1B12251AB627EB0031106F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1B12241AB627EB0031106F /* main.m */; };
 		CA1B12281AB627EB0031106F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1B12271AB627EB0031106F /* AppDelegate.m */; };
 		CA1B122B1AB627EB0031106F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1B122A1AB627EB0031106F /* ViewController.m */; };
@@ -14,6 +15,11 @@
 		CA1B12301AB627EB0031106F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1B122F1AB627EB0031106F /* Images.xcassets */; };
 		CA1B12331AB627EB0031106F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA1B12311AB627EB0031106F /* LaunchScreen.xib */; };
 		CA1B123F1AB627EC0031106F /* iOSNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1B123E1AB627EC0031106F /* iOSNotificationCenterTests.m */; };
+		CA1B124B1AB631AA0031106F /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1B124A1AB631AA0031106F /* MenuViewController.m */; };
+		CA3848671AB643B200EC40D9 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3848661AB643B200EC40D9 /* ContentViewController.m */; };
+		CA38486A1AB643C100EC40D9 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3848691AB643C100EC40D9 /* LeftViewController.m */; };
+		CA38486D1AB643D200EC40D9 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA38486C1AB643D200EC40D9 /* RightViewController.m */; };
+		CA3848761AB66F2400EC40D9 /* NotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3848751AB66F2400EC40D9 /* NotificationHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A75551F5FA78186A8875907 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7A87F146351FEB7F79808FAF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1B121F1AB627EB0031106F /* iOSNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSNotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1B12231AB627EB0031106F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA1B12241AB627EB0031106F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,19 @@
 		CA1B12381AB627EB0031106F /* iOSNotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSNotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1B123D1AB627EB0031106F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA1B123E1AB627EC0031106F /* iOSNotificationCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSNotificationCenterTests.m; sourceTree = "<group>"; };
+		CA1B12491AB631AA0031106F /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		CA1B124A1AB631AA0031106F /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		CA3848651AB643B200EC40D9 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		CA3848661AB643B200EC40D9 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		CA3848681AB643C100EC40D9 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		CA3848691AB643C100EC40D9 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		CA38486B1AB643D200EC40D9 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		CA38486C1AB643D200EC40D9 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		CA38486E1AB6465400EC40D9 /* iOSNotificationCenter-Perfix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSNotificationCenter-Perfix.pch"; sourceTree = "<group>"; };
+		CA38486F1AB649B600EC40D9 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CA3848741AB66F2400EC40D9 /* NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationHelper.h; sourceTree = "<group>"; };
+		CA3848751AB66F2400EC40D9 /* NotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationHelper.m; sourceTree = "<group>"; };
+		E0D3EA0BAAE253FC27B7EF47 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE68915D8632E4B8D583F9AE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +82,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EB52249BB0EA8180A9271D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0D3EA0BAAE253FC27B7EF47 /* Pods.debug.xcconfig */,
+				6A75551F5FA78186A8875907 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C818969FABB4094B58FAD206 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A87F146351FEB7F79808FAF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA1B12161AB627EB0031106F = {
 			isa = PBXGroup;
 			children = (
 				CA1B12211AB627EB0031106F /* iOSNotificationCenter */,
 				CA1B123B1AB627EB0031106F /* iOSNotificationCenterTests */,
 				CA1B12201AB627EB0031106F /* Products */,
+				0EB52249BB0EA8180A9271D1 /* Pods */,
+				C818969FABB4094B58FAD206 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +122,7 @@
 		CA1B12211AB627EB0031106F /* iOSNotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
+				CA1B12481AB631960031106F /* ViewControllers */,
 				CA1B12261AB627EB0031106F /* AppDelegate.h */,
 				CA1B12271AB627EB0031106F /* AppDelegate.m */,
 				CA1B12291AB627EB0031106F /* ViewController.h */,
@@ -89,6 +131,9 @@
 				CA1B122F1AB627EB0031106F /* Images.xcassets */,
 				CA1B12311AB627EB0031106F /* LaunchScreen.xib */,
 				CA1B12221AB627EB0031106F /* Supporting Files */,
+				CA38486F1AB649B600EC40D9 /* Constants.h */,
+				CA3848741AB66F2400EC40D9 /* NotificationHelper.h */,
+				CA3848751AB66F2400EC40D9 /* NotificationHelper.m */,
 			);
 			path = iOSNotificationCenter;
 			sourceTree = "<group>";
@@ -98,6 +143,7 @@
 			children = (
 				CA1B12231AB627EB0031106F /* Info.plist */,
 				CA1B12241AB627EB0031106F /* main.m */,
+				CA38486E1AB6465400EC40D9 /* iOSNotificationCenter-Perfix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +165,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CA1B12481AB631960031106F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA1B12491AB631AA0031106F /* MenuViewController.h */,
+				CA1B124A1AB631AA0031106F /* MenuViewController.m */,
+				CA3848651AB643B200EC40D9 /* ContentViewController.h */,
+				CA3848661AB643B200EC40D9 /* ContentViewController.m */,
+				CA3848681AB643C100EC40D9 /* LeftViewController.h */,
+				CA3848691AB643C100EC40D9 /* LeftViewController.m */,
+				CA38486B1AB643D200EC40D9 /* RightViewController.h */,
+				CA38486C1AB643D200EC40D9 /* RightViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA1B12421AB627EC0031106F /* Build configuration list for PBXNativeTarget "iOSNotificationCenter" */;
 			buildPhases = (
+				43FEBC55075EEBF0BF87592E /* Check Pods Manifest.lock */,
 				CA1B121B1AB627EB0031106F /* Sources */,
 				CA1B121C1AB627EB0031106F /* Frameworks */,
 				CA1B121D1AB627EB0031106F /* Resources */,
+				8A3390F5B3AB81108D92B0BE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +277,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43FEBC55075EEBF0BF87592E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3390F5B3AB81108D92B0BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA1B121B1AB627EB0031106F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA38486D1AB643D200EC40D9 /* RightViewController.m in Sources */,
 				CA1B122B1AB627EB0031106F /* ViewController.m in Sources */,
+				CA3848671AB643B200EC40D9 /* ContentViewController.m in Sources */,
 				CA1B12281AB627EB0031106F /* AppDelegate.m in Sources */,
+				CA38486A1AB643C100EC40D9 /* LeftViewController.m in Sources */,
 				CA1B12251AB627EB0031106F /* main.m in Sources */,
+				CA3848761AB66F2400EC40D9 /* NotificationHelper.m in Sources */,
+				CA1B124B1AB631AA0031106F /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +444,12 @@
 		};
 		CA1B12431AB627EC0031106F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D3EA0BAAE253FC27B7EF47 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "iOSNotificationCenter/iOSNotificationCenter-Perfix.pch";
 				INFOPLIST_FILE = iOSNotificationCenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,9 +457,12 @@
 		};
 		CA1B12441AB627EC0031106F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A75551F5FA78186A8875907 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "iOSNotificationCenter/iOSNotificationCenter-Perfix.pch";
 				INFOPLIST_FILE = iOSNotificationCenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +521,7 @@
 				CA1B12441AB627EC0031106F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA1B12451AB627EC0031106F /* Build configuration list for PBXNativeTarget "iOSNotificationCenterTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +530,7 @@
 				CA1B12471AB627EC0031106F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
